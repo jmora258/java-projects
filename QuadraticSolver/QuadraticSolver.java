@@ -19,6 +19,17 @@ public class QuadraticSolver {
 
 	public static void main(String[] args)
 	{
+		// Recall that Quadratic Equations are of the form: 
+		// f(x) = a(x^2) + b(x) + c
+        
+        double a, b, c; // all initialized to zero 
+
+        // NOTE: in this program: 
+        //  f(x) is represented by       f 
+        // f'(x) is represented by      dfdx 
+        //   dx  is represented by   -( f/dfdx )
+
+        double x, f, dfdx, dx; // all initialized to zero 
 
 	}
 }
