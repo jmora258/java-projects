@@ -20,5 +20,5 @@ EXAMPLE: <br>
 
 <strong>Third: </strong><br> 
 Use these commands:<br>  
-	<em>javac NameOfClass.java</em>  // TO COMPILE<br>  
-	<em>java NameOfClass</em>        // TO EXECUTE
+	TO COMPILE:  <em>javac NameOfClass.java</em><br> 
+	TO EXECUTE:  <em>java NameOfClass</em>
