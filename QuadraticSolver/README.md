@@ -4,20 +4,21 @@ If you are using a Windows machine, make sure to install JDK and add it to the s
 
 <h3>Instructions</h3> 
 
-<strong>First: </strong> 
-Select Start -> Computer -> System Properties -> Advanced system settings -> Environment Variables -> System variables -> PATH
+<strong>First: </strong><br> 
+Select Start -> Computer -> System Properties -> Advanced system settings <br/> 
+-> Environment Variables -> System variables -> PATH
 
-<strong>Second: </strong> 
-Prepend <em>C:\Program Files\Java\version_number\bin;</em> to the beginning of the 
-	PATH variable (where version_number is the version of your JDK). 
+<strong>Second: </strong><br> 
+Prepend <em>C:\Program Files\Java\version_number\bin;</em> to the beginning of the <br>
+PATH variable (where version_number is the version of your JDK). 
 
-To find the version of your system's JDK, launch the command prompt and type: 
+To find the version of your system's JDK, launch the command prompt and type: <br> 
     <em>java -version</em>  
 
-EXAMPLE: 
+EXAMPLE: <br> 
     C:\Program Files\Java\jdk1.8.0_40\bin;
 
-<strong>Third: </strong> 
-Use these commands: 
-	<em>javac NameOfClass.java</em>  // TO COMPILE 
+<strong>Third: </strong><br> 
+Use these commands:<br>  
+	<em>javac NameOfClass.java</em>  // TO COMPILE<br>  
 	<em>java NameOfClass</em>        // TO EXECUTE
