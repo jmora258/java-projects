@@ -1,9 +1,9 @@
 # QuadraticSolver 
 
-<h2>Description</h2> <br> 
+<h2>Description</h2>
 This simple Java program solves a quadratic equation using
 Newton's method (Newton-Raphson Method), an iterative procedure
-for finding a root (zero) of a function. 
+for finding a root (zero) of a function. <br> 
 <strong>Functionality:</strong><br> 
 <ul><li>finds one of the roots of your equation starting from
 your initial guess (must be hard-coded).</li> 
@@ -12,7 +12,7 @@ the tolerance variable (larger number: more accurate)</li></ul>
 
 
 <h2>How to Run Java Programs from the Command Prompt</h2> 
-<strong>First: </strong> 
+<strong>First: </strong> <br> 
 If you are using a Windows machine, make sure to install JDK and add it to the system path. <br> 
 
 <strong>Second: </strong><br> 
