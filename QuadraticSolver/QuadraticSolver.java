@@ -31,5 +31,41 @@ public class QuadraticSolver {
 
         double x, f, dfdx, dx; // all initialized to zero 
 
+        f = 0; // assign zero: prevents compilation error 
+
+        // Let's consider the quadratic function: 
+        //      f(x) = 2(x^2) - 11(x) + 5 ; then 
+        //     f'(x) = 4(x) - 11
+        // Thus: 
+        a = 2; 
+        b = -11;  
+        c = 5;   
+        
+         // My Guess of what one of the roots is 6
+        x = 6; 
+
+        // Let's consider a tolerance of: 
+        int tolerance = 3; // 0.001
+        
+        for(int i = 0; i < tolerance; i++)
+        {
+            // Calculate f
+            f = 2*(x*x) - (11*x) + 5; 
+            
+            // Calculate dfdx 
+            dfdx = 4*x - 11; 
+            
+            // Calculate  dx 
+            dx = -1*(f/dfdx); 
+            
+            // New x 
+            x += dx; 
+            
+            System.out.println("x = " + x + ", f = " + f + ", "
+             + "dfdx = " + dfdx + ", dx = " + dx); 
+        }
+        
+        System.out.println("Converged!");
+        System.out.println("x = " + x + ", f = " + f); 
 	}
 }
