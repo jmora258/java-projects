@@ -20,4 +20,4 @@
 
 <strong>Constructors</strong>
 <ul><li>a constructor that accepts only the dimension of the vector as input and constructs a zero vector with that dimension</li> 
-<li>a constructor that accepts the Cartesian components of the vector as input</li><ul> 
+<li>a constructor that accepts the Cartesian components of the vector as input</li></ul> 
